@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="line">#ededed</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#333333</color>
+    <color name="sent">#00c300</color>
+    <color name="pink">#ffffcbd7</color>
+    <color name="green">#ffbae4b6</color>
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="divider_color">#FFB7B2B2</color>
+    <color name="white_pressed">#FFCFCFCF</color>
+
+
+    <color name="colorItem">#af6fe1</color>
+    <color name="colorTopItem">#d1bc1d</color>
+    <color name="main_listitembackgroud">#ededed</color>
+</resources>

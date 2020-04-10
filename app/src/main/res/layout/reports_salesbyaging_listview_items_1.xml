@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="700dp"
+    android:layout_height="36dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_customer_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:paddingLeft="10dp"
+            android:text="zzz"
+            android:textColor="@color/sent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_total_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_currentdue_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_duepast1_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_duepast2_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_duepast3_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/aging_duepast4_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:maxLines="2"
+            android:paddingRight="4dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/line" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="700dp"
+        android:layout_height="2dp"
+        android:background="@color/line" >
+    </RelativeLayout>
+
+</LinearLayout>
